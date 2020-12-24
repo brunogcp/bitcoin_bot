@@ -43,7 +43,7 @@ def on_message(ws, mensagem):
 
     if price > 22880:
         vender()
-    elif price <22800:
+    elif price <22810:
         comprar()
     else:
         print('Aguardar')
