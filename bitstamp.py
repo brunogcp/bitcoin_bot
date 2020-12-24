@@ -41,7 +41,7 @@ def on_message(ws, mensagem):
     price = mensagem['data']['price']
     print(price)
 
-    if price > 22880:
+    if price > 22890:
         vender()
     elif price <22810:
         comprar()
